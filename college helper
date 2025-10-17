@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusConnect Bot</title>
+  <style>
+    body {
+      background-color: #f4f7fc;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #2b3e50;
+    }
+  </style>
+</head>
+<body>
+  <h1>College helper </h1>
+
+  <df-messenger
+    intent="WELCOME"
+    chat-title="CampusConnect Bot"
+    agent-id="ec7fbb01-d966-44ac-bf7b-1ae9b6b70c1c"
+    language-code="en">
+  </df-messenger>
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+</body>
+</html>
